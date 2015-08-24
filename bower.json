@@ -1,0 +1,27 @@
+{
+  "name": "legends",
+  "version": "0.1",
+  "homepage": "https://github.com/cngondo/legends-site",
+  "authors": [
+    "Cornellius Ngondo <devngondo@gmail.com>"
+  ],
+  "description": "investment group website",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "nomasana"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  }
+}
