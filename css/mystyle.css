@@ -1,0 +1,15 @@
+.landing{
+    height: 800px;
+    background: url('../assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.6);
+}
