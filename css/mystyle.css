@@ -1,9 +1,27 @@
+/*Webfont declaration*/
+/*Using Roboto light*/
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/Roboto-Light-webfont.eot');
+    src: url('../fonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Light-webfont.woff') format('woff'),
+         url('../fonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('../fonts/Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.fontfor{
+    font-family: robotolight;
+}
+
 .landing{
     height: 800px;
     background: url('../assets/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    display: block;
+    max-width: 100%;
 }
 .overlay{
     width: 100%;
@@ -11,5 +29,13 @@
     top: 0;
     left: 0;
     height: 800px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.5);   
+}
+
+.overlay h1{
+    color: white;
+    font-size: 80px;
+}
+.overlay h3{
+    color: white;
 }
