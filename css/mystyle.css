@@ -16,7 +16,7 @@
 
 .landing{
     height: 800px;
-    background: url('../assets/bg.jpg');
+    background: url('../assets/bg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,7 +30,7 @@
     top: 0;
     left: 0;
     height: 800px;
-    background: rgba(0, 0, 0, 0.5);   
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .overlay h1{
@@ -48,7 +48,7 @@
 .line-seperator{
     height: 1px;
     background: #ffffff;
-    border-bottom: 1px solid #ffffff;        
+    /*border-bottom: 1px solid #ffffff;*/
 }
 
 
